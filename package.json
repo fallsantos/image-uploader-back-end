@@ -1,8 +1,9 @@
 {
-  "name": "uploader-backend",
+  "name": "image-uploader-back-end",
   "version": "1.0.0",
-  "description": " api for files upload",
+  "description": "api for image uploads",
   "main": "index.js",
+  "repository": "https://github.com/fallsantos/image-uploader-back-end.git",
   "author": "Flávio Santos",
   "license": "MIT",
   "scripts": {
