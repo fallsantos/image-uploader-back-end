@@ -61,3 +61,4 @@ typings/
 .next
 
 tmp/uploads/*
+!tmp/uploads/.gitkeep
