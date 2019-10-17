@@ -6,6 +6,8 @@ const morgan = require('morgan')
 
 const path = require('path')
 
+const cors = require('cors')
+
 const app = express()
 
 app.use(express.json())// Lidar com corpo de requisições no formato json.
@@ -13,6 +15,8 @@ app.use(express.json())// Lidar com corpo de requisições no formato json.
 app.use(express.urlencoded({ extended: true }))// Manipular dados codificados em url.
 
 app.use(morgan('dev'))
+
+app.use(cors())
 
 app.use(require('../src/routes/routes'))
 
